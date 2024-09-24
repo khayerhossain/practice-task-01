@@ -1,6 +1,7 @@
 body {
     font-family: "Inter", sans-serif;
     margin: 20px;
+    background: rgb(248, 247, 246);
 }
 
 /* nav area */
@@ -104,6 +105,7 @@ nav>ul a {
     display: flex;
     justify-content: space-between;
     margin-top: 80px;
+    margin-bottom: 50px;
 }
 
 .fratured-content {
@@ -111,6 +113,30 @@ nav>ul a {
     padding-top: 25px;
 }
 
+.featured-title {
+    font-size: 40px;
+    color: #3a3a3a;
+}
+
 .featured img {
     padding-left: 20%;
+}
+
+/* footer area */
+
+footer {
+    color: white;
+    background: rgb(22, 22, 104);
+    text-align: center;
+    padding-top: 10px;
+}
+
+footer p {
+    font-size: 10px;
+}
+
+.images img {
+    width: 18px;
+    height: 18px;
+    padding: 10px;
 }
