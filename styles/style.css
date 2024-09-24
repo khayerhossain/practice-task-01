@@ -140,3 +140,76 @@ footer p {
     height: 18px;
     padding: 10px;
 }
+
+/* responcive media query*/
+/*mobile devices*/
+
+@media screen and (max-width:576px) {
+    body {
+        margin: auto;
+    }
+
+    .featured {
+        flex-direction: column;
+        margin: 10px;
+        padding-bottom: 10px;
+    }
+
+    .fratured-content {
+        width: auto;
+        text-align: center;
+    }
+
+    .featured img {
+        padding: 0%;
+        width: 100%;
+    }
+
+    .products {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-left: 0%;
+    }
+
+    .products-card {
+        width: auto;
+    }
+
+    .products-card img {
+        width: 100%;
+        height: 260px;
+    }
+
+    .companies {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 20px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .container-image img {
+        width: 250px;
+        height: 200px;
+        margin: 0%;
+        padding-left: 70px;
+    }
+
+    .content {
+        margin: 10px;
+        padding: auto;
+        width: auto;
+        text-align: center;
+    }
+
+    nav {
+        margin-bottom: 0%;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 25px;
+
+    }
+}
