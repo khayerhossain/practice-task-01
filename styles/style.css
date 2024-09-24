@@ -6,7 +6,6 @@ body {
 /* nav area */
 
 nav {
-    color: #3a3a3a;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,6 +27,7 @@ nav>ul li {
 
 nav>ul a {
     text-decoration: none;
+    color: #3a3a3a;
 }
 
 /*container area */
@@ -96,4 +96,21 @@ nav>ul a {
     box-shadow: 5px 4px 20px dimgray;
     height: 400px;
     width: 265px;
+}
+
+/* featured area */
+
+.featured {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.fratured-content {
+    width: 60%;
+    padding-top: 25px;
+}
+
+.featured img {
+    padding-left: 20%;
 }
