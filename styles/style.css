@@ -1,0 +1,70 @@
+body {
+    font-family: "Inter", sans-serif;
+    margin: 20px;
+}
+
+/* nav area */
+
+nav {
+    color: #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>ul {
+    display: flex;
+    gap: 25px;
+}
+
+nav>ul img {
+    width: 20px;
+    height: 20px;
+}
+
+nav>ul li {
+    list-style: none;
+}
+
+nav>ul a {
+    text-decoration: none;
+}
+
+/*container area */
+.container {
+    display: flex;
+}
+
+.content {
+    padding-top: 60px;
+    margin-left: 50px;
+    width: 60%;
+}
+
+.content-title {
+    font-size: 50px;
+    color: #3a3a3a;
+    padding-top: 5px;
+}
+
+.content-description {
+    padding-bottom: 5px;
+}
+
+.primary-btn {
+    color: rgb(218, 224, 230);
+    background: rgb(228, 13, 49);
+    font-weight: 400;
+    border-radius: 7px;
+    font-size: 18px;
+    border: none;
+    padding: 5px;
+}
+
+/* logos area */
+.companies {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 10%;
+    margin-left: 10%;
+}
